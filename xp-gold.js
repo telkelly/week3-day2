@@ -18,3 +18,11 @@ console.log(concatStr);
 
 // exercise-3 
 
+let num1 = window.prompt("Put your fav number");
+let num2 = window.prompt("Put your other number");
+
+
+
+let calculate = Number(num1) + Number(num2)
+
+alert(`It's your new fav number ${calculate}`)
